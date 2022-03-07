@@ -1,0 +1,65 @@
+.titleDulces{
+    font-family: 'Inspiration',cursive; 
+    font-size: 75px; 
+    text-align: center;
+}
+
+.title{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.sub_pedido{
+    font-family: sans-serif,cursive;
+    font-size: 28px;
+}
+
+.data_user{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 25px;
+    font-family: 'sans-serif',;
+    font-size: 28px;
+}
+
+.logo{
+    background-image: url('../assets/wall.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.logo2{
+    background-image: url('../assets/wall_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.form-pedido{
+    background-color: #9172be;
+    width: 100%;
+}
+.section_user{
+    background-color: #fbb5bf;
+}
+footer{
+    background-color: #fbb5bf;
+}
+.title_ped{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.section_pedido{
+    background-color: white;
+}
+.bg_contact{
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.contact_info{
+    color: white;
+    opacity: 1;
+}

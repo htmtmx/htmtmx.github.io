@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces momentos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+    <script src="./styles/bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  navbar-light"  style="background-color: #fbb5bf;">
+            <div class="container-fluid ">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="index.html"><img src="./assets/dulce_2.png" alt="Pasteleria" height="100px"></a>
+                    <label class="titleDulces " id="top_head" name="top_head">Dulces Momentos</label>
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item ms-4 me-3">
+                            <a class="nav-link active fs-2 " style="text-decoration: none; background-color: white; border-radius: 10px; padding-left: 5px; padding-right: 5px;" aria-current="page" href="index.html" >Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2 me-3" style="text-decoration: none; background-color: white; border-radius: 10px; padding-left: 5px; padding-right: 5px;" href="#realiza_pedido">Realizar pedido</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2 me-3" style="text-decoration: none; background-color: white; border-radius: 10px; padding-left: 5px; padding-right: 5px;" href="pedidos_pastelero.html">Lista de pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-2" style="text-decoration: none; background-color: white; border-radius: 10px; padding-left: 5px; padding-right: 5px;" href="#logo2">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section_user">
+        <div >
+            <div class="container-fluid text-center  logo" style="height: 600px;">
+                <img src="./assets/dulce_2.png" alt="Pasteleria" height="600px">
+            </div>
+            <div class="container-fluid form-pedido">
+                <form>
+                    <div class="container text-start">
+                        <label class="title_ped mt-4" id="realiza_pedido" name="realiza_pedido">Realiza un pedido</label>
+                    </div>
+                    <div class="sabores text-center">
+                        <label class="title" for="">Formas</label><br>
+                        <p class="sub_pedido">Selecciona la forma de tu preferencia</p>
+                        <div class="row justify-content-center text-start">
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/shape_1.jpg" class="card-img-top " alt="Redondo">
+                                <div class="card-body ">
+                                    <h5 class="card-title">Pastel tradicional redondo<br><span class="badge bg-success ms-3 mt-2">$850.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="" id="radio_redondo" name="forma">
+                                        <label class="form-check-label" for="radio_redondo">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/shape_2.jpg" class="card-img-top"
+                                    alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pastel de tres pisos<br><span class="badge bg-success ms-3 mt-2">$1,050.00</span>
+                                    </h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="" id="forma_pisos" name="forma">
+                                        <label class="form-check-label" for="forma_pisos">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/shape_3.jpg" class="card-img-top mt-4" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title mt">Pastel de corazón<br><span class="badge bg-success ms-3 mt-2">$950.00</span>
+                                    </h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="" id="forma_corazon" name="forma">
+                                        <label class="form-check-label" for="forma_corazon">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/shape_4.jpg" class="card-img-top" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pastel forma personalizada<br><span class="badge bg-success ms-3 mt-2">$1,350.00</span>
+                                    </h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" value="" id="forma_other" name="forma">
+                                        <label class="form-check-label" for="forma_other">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sabores text-center">
+                        <label class="title" for="">Sabores</label><br>
+                        <p class="sub_pedido">Selecciona el sabor de tu preferencia, si gustas, puedes combinarlos!</p>
+                        <div class="row justify-content-center text-start">
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/esponjosopasteldevanilla.jpg" class="card-img-top " alt="Vainilla">
+                                <div class="card-body ">
+                                    <h5 class="card-title">Pan de Vainilla<br><span class="badge bg-success ms-3 mt-2">+$0.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_vainilla">
+                                        <label class="form-check-label" for="check_vainilla">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/depositphotos_11406674-stock-photo-slice-of-chocolate-cake.jpg" class="card-img-top" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pan de Chocolate<br><span class="badge bg-success ms-3 mt-2">+$200.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_chocolate">
+                                        <label class="form-check-label" for="check_chocolate">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/panque-de-limon.jpg" class="card-img-top mt-4" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title mt">Pan de Limón<br><span class="badge bg-success ms-3 mt-2">+$250.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_limon">
+                                        <label class="form-check-label" for="check_limon">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/maxresdefault.jpg" class="card-img-top" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pan de Zanahoria<br><span class="badge bg-success ms-3 mt-2">+$350.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_zanahoria">
+                                        <label class="form-check-label" for="check_zanahoria">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adornos text-center">
+                        <label class="title" for="">Adornos</label><br>
+                        <p class="sub_pedido">Selecciona la decoración de tu preferencia, si gustas, puedes combinarlos!</p>
+                        <div class="row justify-content-center text-start">
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/chocolate-drip.jpg" class="card-img-top" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Decoración estilo DRIP<br><span class="badge bg-success ms-3 mt-2">+$125.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_drip">
+                                        <label class="form-check-label" for="check_drip">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/novias-marmol-01-z.jpg" class="card-img-top mt-4"
+                                    alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Decoración estilo MÁRMOL<br><span class="badge bg-success ms-3 mt-2">+$350.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_marmol">
+                                        <label class="form-check-label" for="check_marmol">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card me-4" style="width: 18rem;">
+                                <img src="./assets/r10_2x_geode-cake-brillante-mineral.jpg" class="card-img-top mt-5" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Decoración estilo GEODA<br><span class="badge bg-success ms-3 mt-2">+$450.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check align-text-bottom">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_geoda">
+                                        <label class="form-check-label" for="check_geoda">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card " style="width: 18rem;">
+                                <img src="./assets/11800190_1683130141910724_6402857462928469220_n.jpg" class="card-img-top" alt="Vainilla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Decoración estilo LETTERING<br><span class="badge bg-success ms-3 mt-2">+$75.00</span></h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                                        card's
+                                        content.</p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="check_lettering">
+                                        <label class="form-check-label" for="check_lettering">
+                                            Seleccionar
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br><br>
+                    <div class="row col-8 offset-2  justify-content-center data_user">
+                        <div class="col-md-5">
+                            <label for="nombre_cliente" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombre_cliente">
+                        </div>
+                        <div class="col-md-5">
+                            <label for="telefono_cliente" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono_cliente" maxlength="10">
+                        </div>
+                        <div class="col-md-5">
+                            <label for="correo_cliente" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="correo_cliente">
+                        </div>
+                        <div class="col-md-3 ">
+                            <label for="fecha_recoleccion" class="form-label">Fecha de recolección</label>
+                            <input type="date" class="form-control" id="fecha_recoleccion">
+                        </div>
+                        <div class="col-md-2"></div>
+                        <div class="col-10 ">
+                            <label for="inputAddress" class="form-label">Detalles adicionales</label>
+                            <textarea class="form-control" placeholder="Escriba detalles adicionales como 'Felicidades XXXXXXXX', etc." id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                        </div>                        
+                        <div class="col-10 mt-4 text-end">
+                            <button type="submit" class="btn-lg btn-primary mb-5">Hacer pedido</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="container-fluid  logo2"  style="height: 600px;">
+                <!-- <img src="./assets/dulce_2.png" alt="Pasteleria" height="600px"> -->
+                <div class="card" style="width: 1000px; margin: auto; height: 400px; background: none;">
+                    <div class="row justify-content-center g-0">
+                        <div class="col-md-6" style="height: 500px;">
+                            <img src="./assets/dulce_2.png"  class="img-fluid rounded-start" alt="Pasteleria"
+                                style="margin-top: 50px; height: 500px; width: 500px;">
+                        </div>
+                        <div class="col-md-4 bg_contact" style="margin-top: 100px; border-radius: 10px;">
+                            <div class="card-body contact_info">
+                                <h1 id="logo2" name="logo2">Contacto</h1>
+                                <h3 class="card-title">Teléfono</h3>
+                                <p class="card-text" style="font-size:large;">593-91-5-22-88 <br>55-48-71-25-65</p>
+                                <h3 class="card-title">Horarios de atención</h3>
+                                <p class="card-text" style="font-size:large;">Toda la semana<br>08:30 am - 09:30pm</p>
+                                <h3 class="card-title">Dirección</h3>
+                                <p class="card-text" style="font-size:large;">Av. Venustiano Carranza, Acocalco, 54687, Cuautitlan
+                                    Izcalli, Edo de México</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <div class="container-fluid" >
+            <footer class=" py-3 " style="background-color: #fbb5bf;">
+                <ul class="nav justify-content-center border-bottom  mb-3">
+                    <li class="nav-item"><a style="text-decoration: none;" href="#top_head" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li class="nav-item"><a style="text-decoration: none;" href="#realiza_pedido"  class="nav-link px-2 text-muted">Realizar pedido</a></li>
+                    <li class="nav-item"><a style="text-decoration: none;" href="#logo2" class="nav-link px-2 text-muted">Contacto</a></li>
+                </ul>
+                <p class="text-center text-muted">© 2021 Company, Inc</p>
+            </footer>
+        </div>
+    </footer>
+</body>
+</html>
